@@ -15,7 +15,6 @@ body {
 
       .topnav {
         overflow: hidden;
-        background-color: #333;
       }
 
       .topnav a {
@@ -24,13 +23,22 @@ body {
         color: #97bbf9;
         font-family: Galmuri14;
         text-align: center;
-        padding: 14px 16px;
         text-decoration: none;
+        background-image: linear-gradient(to right, #ffffff, #ffffff 50%, #97bbf9 50%);
+        background-size: 200% 100%;
+        background-position: 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.5s ease-in-out;
       }  
       
       .topnav a:hover {
-        background-color: #ddd;
+        background-position: 0;
         color: black;
+      }
+
+      .topnav a:hover::before{
+        width: 100%;
       }
 
 h1 {
