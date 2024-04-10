@@ -2,6 +2,12 @@ body {
     background: #000000;
       color: #000000;
   }
+
+  @font-face {
+    font-family: Galmuri14;
+    src: url(https://dl.dropbox.com/s/vsjf4lchbdr1sxm/Galmuri14.ttf);
+    }
+
   h1 {
     color: white;
  } 
