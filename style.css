@@ -9,6 +9,7 @@ body {
 
     .header {
         background: linear-gradient(180deg, rgba(200,222,255,1) 35%, rgba(230,240,255,1) 65%, rgba(255,255,255,1) 100%);
+        box-shadow: inset 0px 5px 15px white;
         text-align: center;
         padding: 10px;
       }
