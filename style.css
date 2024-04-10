@@ -18,7 +18,7 @@ body {
         border-right: 1px solid #efefef;
         float: left;
         width: 30%;
-        background:rgb(255, 255, 255, 0);
+        background: none;
         min-height: 100vh;
       }
 
