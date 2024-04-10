@@ -28,7 +28,6 @@ main {
     grid-area: main;
     background-color: rgb(255, 255, 255, 0.7);
     padding: 20px;
-    height: 100vh;
 }
 
       .links {
