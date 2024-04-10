@@ -4,11 +4,11 @@
 }
 
 body {
-    background:  linear-gradient(180deg, rgba(200,222,255,1) 35%, rgba(230,240,255,1) 65%, rgba(255,255,255,1) 100%);
+    background: #ffffff;
  }
 
     .header {
-        background-color: #F1F1F1;
+        background: linear-gradient(180deg, rgba(200,222,255,1) 35%, rgba(230,240,255,1) 65%, rgba(255,255,255,1) 100%);
         text-align: center;
         padding: 10px;
       }
@@ -21,7 +21,8 @@ body {
       .topnav a {
         float: left;
         display: block;
-        color: #f2f2f2;
+        color: #97bbf9;
+        font-family: Galmuri14;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
