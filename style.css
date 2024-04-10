@@ -11,7 +11,6 @@ body {
       .sidebar {
         box-sizing: border-box;
         position: sticky;
-        top: 0;
         float: left;
         width: 25%;
         background-color: #f0cee3;
