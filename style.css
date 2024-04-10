@@ -1,7 +1,6 @@
 body {
     background: #ffffff;
-    background-image: url("https://pbs.twimg.com/media/GKuWBPsXUAAvaw_?format=jpg&name=large") no-repeat left top, linear-gradient(180deg, rgba(200,222,255,1) 35%, rgba(230,240,255,1) 
-    65%, rgba(255,255,255,1) 100%);
+    background-image: linear-gradient(180deg, rgba(200,222,255,1) 35%, rgba(230,240,255,1) 65%, rgba(255,255,255,1) 100%);
  }
 
  @font-face {
