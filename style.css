@@ -17,15 +17,15 @@ body {
         padding: 20px;
         border-right: 1px solid #efefef;
         float: left;
-        width: 30%;
-        background-color: #ffffff;
+        width: 20%;
+        background: url("https://pbs.twimg.com/media/GKupXW0aMAALPNP?format=jpg&name=large");
         min-height: 100vh;
       }
 
       .main {
         padding: 20px;
         width: 100%;
-        background-color: #ffffff;
+        background:rgb(255, 255, 255, 0.5);
         min-height: 100vh;
       }
 
