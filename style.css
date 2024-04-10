@@ -3,13 +3,7 @@ body {
     background: #ffffff;
   }
 
-  @font-face {
-    font-family: Galmuri14;
-    src: url(https://dl.dropbox.com/s/vsjf4lchbdr1sxm/Galmuri14.ttf);
-    }
-
   h1 {
-    font-family: Galmuri14;
     color: #97bbf9;
     font-size: 5em;
     text-align: center;
