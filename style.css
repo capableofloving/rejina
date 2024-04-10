@@ -1,11 +1,17 @@
+@font-face {
+    font-family: Galmuri14;
+    src: url(https://dl.dropbox.com/s/vsjf4lchbdr1sxm/Galmuri14.ttf);
+}
+
 body {
     background: url("https://pbs.twimg.com/media/GKuWBPsXUAAvaw_?format=jpg&name=large");
  }
 
- @font-face {
-    font-family: Galmuri14;
-    src: url(https://dl.dropbox.com/s/vsjf4lchbdr1sxm/Galmuri14.ttf);
-    }
+    .header {
+        background-color: #F1F1F1;
+        text-align: center;
+        padding: 20px;
+      }
 
 h1 {
     color: #97bbf9;
