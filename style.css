@@ -3,9 +3,15 @@
     src: url(https://dl.dropbox.com/s/vsjf4lchbdr1sxm/Galmuri14.ttf);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
     background: #ffffff;
     margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
  }
 
       .sidebar {
@@ -18,7 +24,7 @@ body {
       }
 
       .main {
-        float: left;
+        
         padding: 20px;
         width: 70%;
         background-color: #f1f1f1;
