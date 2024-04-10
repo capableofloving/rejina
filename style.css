@@ -19,7 +19,7 @@ body {
       }
 
       .topnav a {
-        float: left;
+        float: none;
         display: block;
         color: #97bbf9;
         font-family: Galmuri14;
