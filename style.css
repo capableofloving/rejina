@@ -9,8 +9,8 @@ body {
  }
 
       .sidebar {
-        box-sizing: border-box;
-        border-right: 3px solid #efefef;
+        padding: 20px;
+        border-right: 1px solid #efefef;
         float: left;
         width: 30%;
         background-color: #ffffff;
