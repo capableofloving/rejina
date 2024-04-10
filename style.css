@@ -10,11 +10,10 @@ body {
 
       .sidebar {
         box-sizing: border-box;
-        position: sticky;
-        border-right: 1px solid #efefef;
+        border-right: 3px solid #efefef;
         float: left;
-        width: 25%;
-        background-color: #f0cee3;
+        width: 30%;
+        background-color: #ffffff;
       }
 
       .links {
