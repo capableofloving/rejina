@@ -5,20 +5,24 @@
 
 body {
     background: #ffffff;
+    margin: 0;
  }
 
-    .header {
-        background: linear-gradient(180deg, rgba(200,222,255,1) 35%, rgba(230,240,255,1) 65%, rgba(255,255,255,1) 100%);
-        box-shadow: inset 0px 5px 15px white;
-        text-align: center;
-        padding: 10px;
+      .sidebar {
+        box-sizing: border-box;
+        position: sticky;
+        top: 0;
+        float: left;
+        padding: 20px;
+        width: 30%;
+        background-color: #f0cee3;
       }
 
-      .topnav {
+      .links {
         overflow: hidden;
       }
 
-      .topnav a {
+      .links a {
         float: none;
         display: block;
         color: #97bbf9;
@@ -27,13 +31,13 @@ body {
         text-decoration: none;
       }  
       
-      .topnav a:hover {
+      .links a:hover {
         color: black;
       }
 
 h1 {
     color: #97bbf9;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
  } 
  
