@@ -10,7 +10,6 @@
 body {
     background: #ffffff;
     margin: 0;
-    width: 100vw;
     overflow-x: hidden;
  }
 
@@ -20,14 +19,14 @@ body {
         float: left;
         width: 30%;
         background-color: #ffffff;
-        min-height: auto;
+        min-height: 100vh;
       }
 
       .main {
-        
         padding: 20px;
-        width: 70%;
-        background-color: #f1f1f1;
+        width: 100%;
+        background-color: #ffffff;
+        min-height: 100vh;
       }
 
       .links {
