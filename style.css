@@ -1,3 +1,4 @@
+<style type="text/css">
 body {
     background: #ffffff;
   }
@@ -10,11 +11,11 @@ body {
   h1 {
     font-family: Galmuri14;
     color: #97bbf9;
-  font-size: 5em;
-  text-align: center;
+    font-size: 5em;
+    text-align: center;
  } 
  
  p {
     color: #888888;
  }
- 
+ </style>
