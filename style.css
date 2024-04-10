@@ -1,6 +1,5 @@
 body {
-    background: #000000;
-      color: #000000;
+    background: #ffffff;
   }
 
   @font-face {
@@ -9,10 +8,13 @@ body {
     }
 
   h1 {
-    color: white;
+    font-family: Galmuri14;
+    color: #97bbf9;
+  font-size: 5em;
+  text-align: center;
  } 
  
  p {
-    color: white;
+    color: #888888;
  }
  
