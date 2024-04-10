@@ -1,6 +1,13 @@
 body {
     background: #ffffff;
+    background-image: url("https://pbs.twimg.com/media/GKuWBPsXUAAvaw_?format=jpg&name=large") no-repeat left top, linear-gradient(180deg, rgba(200,222,255,1) 35%, rgba(230,240,255,1) 
+    65%, rgba(255,255,255,1) 100%);
  }
+
+ @font-face {
+    font-family: Galmuri14;
+    src: url(https://dl.dropbox.com/s/vsjf4lchbdr1sxm/Galmuri14.ttf);
+    }
 
 h1 {
     color: #97bbf9;
@@ -9,5 +16,7 @@ h1 {
  } 
  
  p {
+    font-family: Galmuri14;
+    font-size: 2em;
     color: #888888;
  }
