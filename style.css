@@ -16,6 +16,13 @@ body {
         background-color: #ffffff;
       }
 
+      .main {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f1;
+      }
+
       .links {
         overflow: hidden;
       }
