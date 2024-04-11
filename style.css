@@ -1,6 +1,10 @@
+@font-face {
+  font-family: Galmuri14;
+  src: url(https://dl.dropbox.com/s/vsjf4lchbdr1sxm/Galmuri14.ttf);
+
 body {
-    background: #000000;
-    color: #00000;
+  background: url("https://64.media.tumblr.com/5d6bcc5f1e4967d2213cba495e83413a/9fc1ed9c733a5bf9-2a/s1280x1920/9f90ea08848d6e29eb332e96f33fdaa81f2d6b63.jpg");
+  margin: 0;
   }
   
 h1 {
