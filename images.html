@@ -16,10 +16,6 @@
   
    
 
-<div class="dropdown">
-  <button id="drop"  class="dropbtn"> </button>
-  <div id="myDropdown" class="dropdown-content">
-
     <hr class="solid">
       <div class="navbar">
  <hr class="solid">
@@ -134,37 +130,9 @@ function showSlides(n) {
  
  
 
-    <script>
-  /* When the user clicks on the button, 
-    toggle between hiding and showing the dropdown content */
-document.getElementById("drop").addEventListener("click", function(e) {
-  document.getElementById("myDropdown").classList.toggle("show");
-});
-
-
-// Close the dropdown if the user clicks outside of it
-window.addEventListener("click", function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    document.querySelectorAll(".dropdown-content.show")
-      .forEach(openDropdown => openDropdown.classList.remove('show'))
-  }
-});
-</script>
-
 
 
 <style>
- #drop {
-  background-position:center; 
-  background-image: url('button.png');
-  width:6.2vw; 
-  height:6.2vw; 
-  border:none; 
-  top:2.5vh;
-  left: 2vw;
-  position: absolute;
- }
-
 #button-display-left{
   position:absolute;
   top: 50%;
@@ -481,15 +449,6 @@ ul {
   padding: 5px 3px;
  }
 }
-
-@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
- #drop {
-  background-position:center; 
-  background-image: url('button.png');
-  width:10vw; height:30vw; border:none; top:3vh; left: 1vw;
-    position: absolute;
-  
- }
 
 }
 
