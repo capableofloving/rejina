@@ -70,8 +70,7 @@ window.addEventListener("click", function(event) {
 
 
 <style>
-.navbar{  
-   height:50%; 
+.navbar {  
   font-size: 4.5vh;
   padding:1%;
   z-index:98;
@@ -90,6 +89,25 @@ window.addEventListener("click", function(event) {
   padding-bottom:10px;
 } 
 
+.dropbtn {
+    width:100%;
+    height:15%;
+   border: 1px solid #efefef;
+   background-color: white;
+   color: #efefef;
+   padding: 10px;
+   font-size: 2.5vh;
+   border-radius: 2px;
+  cursor: url(custompointer.png), auto;
+  transition-duration: 0s;
+  /*must change manually to match css stylesheet body font*/
+  font-family: "Galmuri14";
+ }
+
+  .dropbtn:hover {
+   background-color: black; 
+   color: white;
+ }
 
 #page-container {
   position: relative;
@@ -101,7 +119,7 @@ window.addEventListener("click", function(event) {
 }
 
 
-#button{
+#button {
 position:relative;
   top:10vh;
 }
@@ -120,7 +138,7 @@ position:relative;
  }
 
 
- #text-container{
+ #text-container {
    padding:3%;
    width:100%; 
   }
@@ -155,26 +173,6 @@ ul {
    font-weight: 100;
  }
 
- 
- .dropbtn {
-    width:100%;
-    height:15%;
-   border: 2px solid black;
-   background-color: white;
-   color: black;
-   padding: 10px 20px;
-   font-size: 2.5vh;
-   border-radius: 2px;
-  cursor: url(custompointer.png), auto;
-  transition-duration: 0s;
-  /*must change manually to match css stylesheet body font*/
-  font-family: "Menlo";
- }
-
-  .dropbtn:hover {
-   background-color: black; 
-   color: white;
- }
 
  .cursor {
   cursor: url(customcursor.png), auto;
