@@ -38,7 +38,7 @@
   <p class="maintext"> This is my website.</p>
   </div>
 
-  <img id="me" src="/images/image1.jpg" style="width:34%; position:absolute; margin:0 auto; padding-top: 20px; ">
+ 
   </div>
   
 </div>        
@@ -69,6 +69,18 @@ window.addEventListener("click", function(event) {
 
 
 <style>
+ .scroll::-webkit-scrollbar-track {
+     background-color: #e6f0ff;
+}
+ .scroll::-webkit-scrollbar {
+     width: 10px;
+     background-color: #c8deff;
+}
+ .scroll::-webkit-scrollbar-thumb {
+     background-color: #c8deff;
+}
+
+
 .navbar {  
   font-size: 4.5vh;
   z-index:98;
@@ -77,8 +89,8 @@ window.addEventListener("click", function(event) {
   display:inline-block;
   top:0;
   right:0;
-  width:25%;
-  background: url("https://64.media.tumblr.com/5d6bcc5f1e4967d2213cba495e83413a/9fc1ed9c733a5bf9-2a/s1280x1920/9f90ea08848d6e29eb332e96f33fdaa81f2d6b63.jpg");
+  width:30%;
+  background: url("https://64.media.tumblr.com/5509a2d548900e2616350b86adcdca83/67da87ae0e3e54b0-ef/s1280x1920/019be9969648475cabbea19c350eb0cfac8aab67.png");
   color: white;
   text-align: center;
   vertical-align:middle;
@@ -89,13 +101,13 @@ window.addEventListener("click", function(event) {
 
 .dropbtn {
    width:100%;
-   height:8%;
-   border: 1px solid #dfdfdf;
+   height:5%;
+   border: 1px solid #888888;
    background-color: white;
    color: #888888;
-   padding: 5px;
+   padding: 2px;
    font-size: 0.5em;
-   border-radius: 3px;
+   border-radius: 10px;
   cursor: url(custompointer.png), auto;
   transition-duration: 0.5s;
   /*must change manually to match css stylesheet body font*/
@@ -229,9 +241,6 @@ ul {
  
   body {
    background:white;
-   background: linear-gradient(180deg, rgba(200,222,255,1) 35%, rgba(230,240,255,1) 
-   65%, rgba(255,255,255,1) 100%);
-   box-shadow: inset 0px 5px 15px white;
    background-size:100%;
    margin: 0;
    background-repeat: repeat;

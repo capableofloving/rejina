@@ -1,6 +1,12 @@
 @font-face {
   font-family: Galmuri14;
   src: url(https://dl.dropbox.com/s/vsjf4lchbdr1sxm/Galmuri14.ttf);
+}
+
+@font-face {
+  font-family: garamond;
+  src: url(https://dl.dropbox.com/s/ev3quys8bg4x2u2/garamond-italic-sp.ttf);
+}
 
 body {
   margin: 0;
