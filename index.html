@@ -11,7 +11,6 @@
   <body>
   <div id="page-container">
   <div id="content-wrap">
-    <img src="https://i.pinimg.com/originals/f8/0f/d8/f80fd83c00881b94105969eab4d4213a.gif" height=60 style="position:fixed;bottom:10px;right:-10px;z-index:999"/>
 
     <div class="sidebar">
 
@@ -49,31 +48,6 @@
 
 </div>
 
-$defaultDuration: .3s;
-$primaryColour: #ececec;
-$secondaryColour: #666;
-$shadowColour: rgba(0, 0, 0, .6);
-
-
-
-// As is often the case, some devices/browsers need additional code to get CSS to work
-// in the most desired way. These mixins are used to quickly drop in hacks for each element
-@mixin hideTapHighlightColor() {
-  //Prevent highlight colour when element is tapped
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-@mixin hardwareAccel() {
-  //Improve performance on mobile/tablet devices
-  transform: translateZ(0);
-}
-
-@mixin improveAntiAlias() {
-  //Improve aliasing on mobile/tablet devices
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-
-
 
 
 <style>
@@ -88,7 +62,7 @@ $shadowColour: rgba(0, 0, 0, .6);
   border-left: 1px solid #888888;
   display:inline-block;
   top:0;
-  left: 50px;
+  left: 48px;
   width:18%;
   background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);  
   background-repeat: no-repeat;
