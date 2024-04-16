@@ -18,6 +18,7 @@ h1 {
     font-size: 1em;
     color:white;
     font-family: "garamond";
+    z-index: -1;
 }  
 
 p {
