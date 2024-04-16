@@ -19,6 +19,7 @@ h1 {
     color:white;
     font-family: "garamond";
     z-index: -1;
+    line-height: 0;
 }  
 
 p {
