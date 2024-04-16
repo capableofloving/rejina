@@ -14,11 +14,11 @@
 
     <div class="sidebar">
       <div class="sidebar-img">
-      <img src="https://64.media.tumblr.com/4451d856c983abc1fc10eaa679416959/tumblr_opo5ooxiil1utrf7no1_1280.png" width="200" height="auto">
+      <img src="https://64.media.tumblr.com/ee6c6fb70d7c23736e2de1e5e689c95b/c670ee9ccdaf0dc9-52/s2048x3072/23f7144e0f4d922f98c0cd9bba92ae73b140e1f9.jpg" width="200" height="auto">
     </div>
-        <a href="/rejina/images"> <button id="button"  class="dropbtn">images</button></a>
+        <a href="/rejina/images"> <button id="button"  class="sidebar-button">images</button></a>
 
-        <a href="/rejina/blog"> <button id="button"  class="dropbtn">blog</button></a>
+        <a href="/rejina/blog"> <button id="button"  class="sidebar-button">blog</button></a>
 
         
        
@@ -95,16 +95,15 @@
   overflow: hidden;
 }
 
-.dropbtn {
+.sidebar-button {
    width:100%;
    height:5%;
-   background: linear-gradient(180deg, rgba(200,222,255,1) 35%, rgba(230,240,255,1) 
-   65%, rgba(255,255,255,1) 100%);
+   background: #c8deff;
    color: white;
    padding: 2px;
    font-size: 0.5em;
    font-weight: 500;
-   border: 0px solid transparent;
+   border: 1px outset white;
    border-radius: 3px;
    font-family: "Galmuri14";
    display: inline-block;
@@ -112,7 +111,8 @@
   transition-property: transform;
  }
 
-  .dropbtn:hover {
+  .sidebar-button:hover {
+    border: 1px inset white;
     transform: scale(1.1) rotate(4deg);
  }
 
@@ -186,7 +186,7 @@ ul {
  
   body {
    background: white;
-   background-image: url("https://foollovers.com/mat/simple02/f12-bg-simple.gif");
+   background-image: url("https://foollovers.com/mat/simple02/f06-bg-simple.gif");
    background-repeat: repeat;
    margin: 0;
    font-family: "Galmuri14";
@@ -246,7 +246,7 @@ ul {
 
 
 @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
-.dropbtn {
+.sidebar-button {
    font-size: 1.5vh;
    height:8%;
  }
