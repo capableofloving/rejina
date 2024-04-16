@@ -13,12 +13,12 @@
   <div id="content-wrap">
 
     <div class="sidebar">
-
+      <div class="box-shadow">
       <img src="https://64.media.tumblr.com/c16b1c6f187fec6ea1bfce87a41ca469/c1d1212cbe00abe3-58/s100x200/55248619e119576f9528fb20615b562c0f1073ac.gif" width="150" height="auto">
+    </div>
+        <a href="/rejina/images"> <button id="button"  class="dropbtn">images</button></a>
 
-        <a href="/rejina/images"> <button id="button"  class="dropbtn">Images</button></a>
-
-        <a href="/rejina/blog"> <button id="button"  class="dropbtn">Blog</button></a>
+        <a href="/rejina/blog"> <button id="button"  class="dropbtn">blog</button></a>
 
         
         
@@ -74,6 +74,33 @@
   padding-bottom:5px;
 } 
 
+.box-shadow
+{
+  background-color: #fff;
+  height: 235px;
+  margin: 32px 24px;
+  text-align: center;
+  width: 500px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.box-shadow::after
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: inset 0 0 10px 10px #000;   
+  -moz-box-shadow: inset 0 0 10px 10px #000;
+  box-shadow: inset 0 0 10px 10px #000;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 img {
 display: block;
 margin: auto;
@@ -91,6 +118,7 @@ border-radius: 4px;
    font-size: 0.5em;
    border-radius: 4px;
    font-family: "Galmuri14";
+   font-weight: 600;
    display: inline-block;
   transition-duration: .3s;
   transition-property: transform;
@@ -175,10 +203,9 @@ ul {
 }
  
   body {
-   background:white;
+   background:#fff4fc;
    background-size:100%;
    margin: 0;
-   background-repeat: repeat;
    font-family: "Galmuri14";
  }
 
