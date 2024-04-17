@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: Lucy Said Ok;
-  src: url(\rejina\fonts\LucySaidOkPersonalUseItalic-OV9ee.ttf);
+  font-family: Angelface;
+  src: url(https://dl.dropbox.com/s/n7jdh59t8pbi88x/Angelface.otf);
 }
 
 
@@ -17,7 +17,7 @@ h1 {
     text-align:center;
     font-size: 1em;
     color:white;
-    font-family: "Lucy Said Ok";
+    font-family: "Angelface";
     z-index: -1;
     line-height: 0%;
 }  
