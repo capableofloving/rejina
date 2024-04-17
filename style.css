@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: garamond;
-  src: url(https://dl.dropbox.com/s/ev3quys8bg4x2u2/garamond-italic-sp.ttf);
+  font-family: Lucy Said Ok;
+  src: url(\rejina\fonts\LucySaidOkPersonalUseItalic-OV9ee.ttf);
 }
 
 
@@ -17,9 +17,9 @@ h1 {
     text-align:center;
     font-size: 1em;
     color:white;
-    font-family: "garamond";
+    font-family: "Lucy Said Ok";
     z-index: -1;
-    line-height: 0;
+    line-height: 0%;
 }  
 
 p {
