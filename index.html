@@ -111,6 +111,18 @@
   overflow: visible;
 }
 
+.cp-circle {
+  font-size: 0.4em;  
+  color: #d0d19d;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+50% {
+opacity: 0;
+}
+}
+
 .sidebar-button {
   padding: 0.5em 0.5em;
   border: 1px solid #d0c3e6; 
@@ -130,11 +142,6 @@
 .sidebar-button:hover {
   transform: scale(1.1) rotate(4deg);
  }
-
- .cp-circle {
-  font-size: 0.4em;  
-  color: #d0d19d;
-}
 
 #page-container {
   position: relative;
