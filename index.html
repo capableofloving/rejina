@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+<body>
 
 
     <div class="sidebar">
@@ -24,6 +24,59 @@
           <a href="/rejina/blog"> <button id="button"  class="sidebar-button">DIARY</button></a>
     </div>
     
-    
-    </body>
-    </html>
+
+
+<style>
+     .sidebar {  
+  padding: 1%;
+  z-index:98;
+  position: fixed;
+  display:inline-block;
+  top:5vh;
+  left: 48px;
+  width:18%;
+  background: rgba(255, 255, 255, 1);
+  backdrop-filter: blur(5px);
+  border-left: 1px solid #e8e6e7;  
+  border-right: 1px solid #e8e6e7; 
+  background-repeat: repeat;
+  color: white;
+  text-align: center;
+  vertical-align:middle;
+  height: 90vh;
+  padding-top:15px;
+  padding-bottom:5px;
+} 
+
+.sidebar-img {
+  background-color: #fff;
+  margin: auto;
+  height: 200px;
+  text-align: center;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.sidebar-button {
+  padding: 0.5em 1em;
+  border: 1px solid #d0c3e6; 
+  border-radius: 20px;
+  color: #d0c3e6;
+  background:rgba(208, 195, 230, 0.5);
+  backdrop-filter: blur(10px);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.6em;
+  width: 100%
+  text-align: left;
+  position: relative;
+  transition-duration: .3s;
+  transition-property: transform;
+}
+
+.sidebar-button:hover {
+  transform: scale(1.1) rotate(4deg);
+ }
+</style>
