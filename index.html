@@ -86,23 +86,8 @@
   text-align: center;
   width: 200px;
   position: relative;
-  border-radius: 50%;
   overflow: hidden;
   z-index: -1;
-}
-
-.sidebar-img::after {
-content: '';
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
--webkit-box-shadow: inset 0 0 40px 40px rgba(255,255,255,1);
--moz-box-shadow: inset 0 0 40px 40px rgba(255,255,255,1);
-box-shadow: inset 0 0 40px 40px rgba(255,255,255,1);
-border-radius: 50%;
-overflow: hidden;
 }
 
 .sidebar-title {
@@ -137,18 +122,16 @@ opacity: 0;
 }
 
 .sidebar-button {
-  padding: 0.5em;
+  padding: 0.2em;
   border: 1px solid #d0c3e6; 
-  border-radius: 10px;
+  border-radius: 0px;
   color: #d0c3e6;
   background:rgba(208, 195, 230, 0.5);
   backdrop-filter: blur(10px);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 0.7em;
-  text-align: center;
-  width: 100%;
-  display: inline-block;
+  font-size: 0.6em;
+  text-align: left;
   position: relative;
   transition-duration: .3s;
   transition-property: transform;
@@ -229,7 +212,7 @@ ul {
  
   body {
    margin: 0;
-   background-color: #fff;
+   background-color: #f2f2f2;
 }
 
  h1 {
