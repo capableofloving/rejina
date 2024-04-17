@@ -14,7 +14,7 @@
 
     <div class="sidebar">
       <div class="sidebar-img">
-      <img src="https://64.media.tumblr.com/14cb5bb3522725a6c29f3cb49646bc55/621c0c3c05f3f737-69/s250x400/a31515951afadf9524ee42a796c03cacc83b1cd9.jpg" width="200" height="auto">
+      <img src="https://64.media.tumblr.com/9956e0fd457580c9ced1653e774b0686/cac8189f1f01644f-0b/s400x600/050c6ac7c001b6af122025fc8712f321a4b78ac8.gif" width="200" height="auto">
     </div>
         <a href="/rejina/images"> <button id="button"  class="sidebar-button">about</button></a>
 
@@ -64,7 +64,10 @@
   top:0;
   left: 48px;
   width:18%;
-  background: #e6f0ff;  
+  background: rgba(230, 240, 255, .15);
+  backdrop-filter: blur(5px);
+  border-left: 1px solid #e6f0ff;  
+  border-right: 1px solid #e6f0ff; 
   background-repeat: repeat;
   color: white;
   text-align: center;
@@ -189,12 +192,35 @@ ul {
 }
  
   body {
-   background: white;
-   background-image: url("https://foollovers.com/mat/simple02/l12-bg-simple.gif");
-   background-repeat: repeat;
    margin: 0;
-   font-family: "Galmuri14";
+   background: linear-gradient(270deg, #98d1c1, #e398bf, #a1d1fa, #ffffff);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    -o-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
  }
+
+ @-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 
  h1 {
    text-align: center;
