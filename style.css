@@ -8,6 +8,16 @@
   src: url(https://dl.dropbox.com/s/n7jdh59t8pbi88x/Angelface.otf);
 }
 
+@font-face {
+  font-family: LucySaidOk;
+  src: url(https://dl.dropbox.com/s/jx06rexhjwgf17f/LucySaidOkPersonalUseItalic-OV9ee.ttf);
+}
+
+@font-face {
+  font-family: HughIsLife;
+  src: url(https://dl.dropbox.com/s/bki6gilknxxouuk/HughIsLifePersonalUseItalic-K7axe.ttf);
+}
+
 
 body {
   margin: 0;
