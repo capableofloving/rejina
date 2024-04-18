@@ -14,7 +14,7 @@
   
   <body>
   <div class="noise"></div>  
-  
+
   <nav class="navbar">
     <div id="trapezoid">
       <a class="sub-home" href="#">Home</a>
@@ -85,6 +85,29 @@
 
 </div>
 
+<script>$('.expandHome').mouseover(function() {
+  $('.sub-home').css({
+        'display': 'block'
+    }); 
+});
+$('.subnavbtn').mouseover(function() {
+  $('.sub-home').css({
+        'display': 'none'
+    }); 
+});
+
+$('#trapezoid').mouseleave(function() {
+  $('#trapezoid').css({
+        'margin-top': '-53px'
+    }); 
+    $('.sub-home').css({
+        'display': 'none'
+    }); 
+}).mouseenter(function() {
+  $('#trapezoid').css({
+        'margin-top': '0px'
+    }); 
+});</script>
 
 
 <style>
