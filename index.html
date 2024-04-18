@@ -15,18 +15,6 @@
   <body>
   <div class="noise"></div>  
 
-  <nav class="navbar">
-      <a href="/rejina/">ABOUT</a>
-       <div class="subnav">
-       <button class="subnavbtn">CLOSET<i class="fa fa-caret-down"></i></button>
-      </div>
-    
-       <div class="subnav">
-       <button class="subnavbtn">DIARY<i class="fa fa-caret-down"></i></button>
-        </div>
-      <a href="/rejina/">Contact</a>
-  </nav>
-
 
   <div id="page-container">
   <div id="content-wrap">
@@ -78,61 +66,6 @@
   top:0px; 
   left:0px;
 }
-
-.navbar {
-  position: sticky;
-  top: 0;
-  display:flex;
-  width: 50%;
-  overflow:hidden;
-  justify-content: center;
-  height: 100px;
-  border: 1px solid #d0c3e6; 
-  border-radius: 20px;
-  color: #d0c3e6;
-  background:rgba(208, 195, 230, 0.5);
-  backdrop-filter: blur(10px);
-}
-
-.navbar a {
-  float: left;
-  font-size: 0.8em;
-  color: #d0c3e6;
-  font-family: "Poppins";
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-  transition-duration: .3s;
-  transition-property: transform;
-}
-
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-
-.subnav .subnavbtn {
-  font-size: 0.8em;
-  color: #d0c3e6;
-  border: none;
-  outline: none;
-  padding: 10px;
-  background-color: inherit;
-  font-family: "Poppins";
-  margin: 0;
-  transition-duration: .3s;
-  transition-property: transform;
-}
-
-.navbar a:hover, .subnav:hover .subnavbtn {
-  transform: scale(1.1) rotate(4deg);
-}
-
-.subnav:hover {
-  display: flex;
-  justify-content: center;
-}
-
 
 .sidebar {  
   padding: 1%;
@@ -271,28 +204,8 @@ ul {
  
   body {
   background-blend-mode: overlay;
-  background: linear-gradient(350deg, #e6dbf0, #cfe7fc, #bde7ec, #edf9e1);
+  background: linear-gradient(350deg, #bde7ec, #edf9e1);
   background-size: 800% 800%;
-
-    -webkit-animation: AnimationName 25s ease infinite;
-    -moz-animation: AnimationName 25s ease infinite;
-    animation: AnimationName 25s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
 }
 
  h1 {

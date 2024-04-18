@@ -5,29 +5,8 @@
 
 body {
   background-blend-mode: overlay;
-  margin: 0;
-  background: linear-gradient(350deg, #e6dbf0, #cfe7fc, #bde7ec, #edf9e1);
+  background: linear-gradient(350deg, #bde7ec, #edf9e1);
   background-size: 800% 800%;
-
-  -webkit-animation: AnimationName 25s ease infinite;
-  -moz-animation: AnimationName 25s ease infinite;
-  animation: AnimationName 25s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
 }
   
 h1 {
