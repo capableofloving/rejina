@@ -16,30 +16,15 @@
   <div class="noise"></div>  
 
   <nav class="navbar">
-      <a class="sub-home" href="#">Home</a>
-      <a href="#About" class="expandHome">About</a>
+      <a href="/rejina/">ABOUT</a>
        <div class="subnav">
-       <button class="subnavbtn">Clients<i class="fa fa-caret-down"></i></button>
-         <div class="subnav-content">
-          <div id="subnav-trapezoid">
-            <a href="#Clients">Burger King</a>
-            <a href="#Clients">Southwest Airlines</a>
-            <a href="#Clients">Levi Strauss</a>
-          </div>
-         </div>
+       <button class="subnavbtn">CLOSET<i class="fa fa-caret-down"></i></button>
       </div>
     
        <div class="subnav">
-       <button class="subnavbtn">Services<i class="fa fa-caret-down"></i></button>
-         <div class="subnav-content">
-          <div class="subnav-trapezoid">
-            <a href="#Services">Print Design</a>
-            <a href="#Services">Web Design</a>
-            <a href="#Services">Mobile App Development</a>
-           </div>
-         </div>
+       <button class="subnavbtn">DIARY<i class="fa fa-caret-down"></i></button>
         </div>
-      <a href="https://codepen.io/pec-man" class="expandHome">Contact</a>
+      <a href="/rejina/">Contact</a>
   </nav>
 
 
@@ -94,34 +79,6 @@
   left:0px;
 }
 
-#trapezoid {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
-  border: 80px solid rgba(0,0,0,0);
-  border-top: 0 solid;
-  border-bottom: 100px solid rgba(1, 1, 1, .4);
-  -webkit-border-radius: 20px 20px 0 0;
-  border-radius: 20px 20px 0 0;
-  font: normal 100%/normal Arial, Helvetica, sans-serif;
-  color: rgba(0,0,0,0.7);
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  -webkit-transform: rotateX(180deg);
-  transform: rotateX(180deg);
-  margin-top:-53px;
-  width: 700px;
-  position: relative;
-  transition: all 0.7s ease;
-  padding-left:7%;
-}
-
-#trapezoid a, .subnavbtn {
- -webkit-transform: rotateX(180deg);
-  transform: rotateX(180deg);
-}
-
 .sub-home {
   display: none;
   position: absolute;
@@ -130,11 +87,6 @@
 
   z-index: 1;   
   transform: perspective(-10px);
-}
-
-#trapezoid:hover .sub-home {
-  justify-content: center;
-  margin-top: 53px;
 }
 
 .navbar {
