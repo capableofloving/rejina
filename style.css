@@ -1,18 +1,49 @@
-body {
-    margin: 0;
-    background-color: linear-gradient(95deg, rgba(164,170,238,.65) 0%, rgba(165,210,216,.65) 156%); 
- }
+@font-face {
+  font-family: Galmuri14;
+  src: url(https://dl.dropbox.com/s/vsjf4lchbdr1sxm/Galmuri14.ttf);
+}
 
- 
- h1 {
-    text-align: center;
-    color: white;
-    font-size: 3em;
+
+body {
+  margin: 0;
+  }
+  
+h1 {
+    text-align:center;
+    font-size: 1em;
+    color:white;
     font-family: "Angelface";
     z-index: -1;
     line-height: 0%;
- }
-  
-  p {
+}  
+
+p {
+    color: #888888;
     font-family: "Galmuri14";
-} 
+}
+
+/* cursors*/
+body {
+    cursor: url('customcursor.png') , auto;
+    }
+    
+    
+    
+  a {
+  
+      cursor: url('custompointer.png'), auto;
+      }
+      
+      a:hover {
+      
+      cursor: url('custompointer.png'), auto;
+      }
+      a:active {
+      
+      cursor: url('custompointer.png'), auto;
+      }
+      
+    a:visited {
+      color:blue;
+      }
+  

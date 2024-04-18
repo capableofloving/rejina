@@ -6,90 +6,80 @@
     <title>rejina online</title>
     <link rel="icon" href="https://i.ibb.co/bmVB6vG/mboxbl.gif">
     <link href="/rejina/style.css" rel="stylesheet" type="text/css" media="all">
-
     <script src="//pull.cappuccicons.com/cpf.js"></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
+  
+  <body>
+  <div id="page-container">
+  <div id="content-wrap">
 
-<body>
-    <div class="header">
-    </div>   
-
-    <div class="topbar">
-        <div class="topbar-img"><img src="https://64.media.tumblr.com/b297ebc9770592458516f35c9d426143/21e6b289d3ed976c-b1/s540x810/4c309005700b7c96bee0bf12ef0e9e91d0e0bc4c.gif" style="width:200px;" style="height: 200px" style="object-fit: cover;"></div>
-        <a href="/rejina/images">ABOUT</a>
-        <a href="/rejina/blog">CLOSET</a>
-        <a href="/rejina/blog">DIARY</a>
+    <div class="sidebar">
+      <div class="sidebar-title"><i class="cp cp-circle"></i> rejina is online</div>
+      <div class="sidebar-img">
+      <img src="https://64.media.tumblr.com/7a4b1b02a2ed447f266b7bf2d3582dda/492623b6dd7cb371-07/s1280x1920/5d8c1d520e539c6168978f87be9fe5f5b65b9bf6.jpg" width="200" height="200" style="object-fit: cover;">
     </div>
-    
+        <a href="/rejina/images"> <button id="button"  class="sidebar-button">ABOUT</button></a>
+
+        <a href="/rejina/blog"> <button id="button"  class="sidebar-button">CLOSET</button></a>
+
+        <a href="/rejina/blog"> <button id="button"  class="sidebar-button">DIARY</button></a>
+
+        
+       
+
+</div>
+
+
+     <div id="content">
+      
+     
+  <div id="box">
+ <div id="text-containter">
+  <h1> Hello Everyone</h1>
+  <p class="maintext"> This is my website.</p>
+  </div>
+
+ 
+  </div>
+  
+</div>        
+        
+
+ 
+ 
+
+</div>
+
 
 
 <style>
-#bg1 { 
-position:fixed; 
-bottom:0px; 
-right:40px; 
-width:300px; 
-height:300px; 
-border-radius:50%; 
-background:#d4c2e5; 
-filter: blur(80px); 
-}
 
-#bg2 { 
-position:fixed; 
-top:0px; 
-left:40px; 
-width:300px; 
-height:300px; 
-border-radius:50%; 
-background:#ddaaee; 
-filter: blur(80px); 
-}
 
-#bg3 { 
-position:fixed; 
-top:90px; 
-right:200px; 
-width:300px; 
-height:300px; 
-border-radius:50%; 
-background:#bdd38d; 
-filter: blur(0px); 
-opacity:6; 
-}
-
-.header {
+.sidebar {  
+  padding: 1%;
+  z-index:98;
   position: fixed;
-  margin: 0px auto;
-  width: 50%;
-  border-left: 1px solid #d0c3e6;
-  border-right: 1px solid #d0c3e6;
-  background:rgba(208, 195, 230, 0.5);
-  backdrop-filter: blur(10px);
-  padding: 20px;
-  text-align: center;
-}
-
-.topbar {  
-  width: 50%;
-  overflow: hidden;
-  position: fixed;
-  margin: 0px auto;
-  padding: 10px;
   display:inline-block;
-  border-left: 1px solid #d0c3e6;
-  border-right: 1px solid #d0c3e6;
-  border-bottom: 1px solid #d0c3e6;
-  background:rgba(208, 195, 230, 0.5);
-  backdrop-filter: blur(10px);
+  top:5vh;
+  left: 48px;
+  width:18%;
+  background: rgba(255, 255, 255, 1);
+  backdrop-filter: blur(5px);
+  border-left: 1px solid #e8e6e7;  
+  border-right: 1px solid #e8e6e7; 
+  background-repeat: repeat;
+  color: white;
   text-align: center;
+  vertical-align:middle;
+  height: 90vh;
+  padding-top:15px;
+  padding-bottom:5px;
 } 
 
-.topbar-img {
+.sidebar-img {
   background-color: #fff;
   margin: auto;
   height: 200px;
@@ -100,23 +90,215 @@ opacity:6;
   z-index: -1;
 }
 
-.topbar a {
+.sidebar-title {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  padding: 0.5em 2em;
+  max-width: 100%;
+  border: 1px solid #e398bf; 
+  border-radius: 20px;
+  color: #e398bf;
+  background:rgba(227, 152, 191, 0.5);
+  backdrop-filter: blur(10px);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.7em;
+  text-align: center;
+  display: inline-block;
+  z-index: 99;
+}
+
+.cp-circle {
+  font-size: 0.4em;  
+  color: #d0d19d;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+50% {
+opacity: 0;
+}
+}
+
+.sidebar-button {
+  padding: 0.5em 1em;
+  border: 1px solid #d0c3e6; 
+  border-radius: 20px;
   color: #d0c3e6;
+  background:rgba(208, 195, 230, 0.5);
+  backdrop-filter: blur(10px);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 0.8em;
-  text-align: center;
-  text-decoration: none;
+  font-size: 0.6em;
+  width: 100%
+  text-align: left;
+  position: relative;
   transition-duration: .3s;
   transition-property: transform;
 }
 
-.topbar a:hover {
+.sidebar-button:hover {
   transform: scale(1.1) rotate(4deg);
  }
 
- body {
-    margin: 0;
-    background-color: linear-gradient(95deg, rgba(164,170,238,.65) 0%, rgba(165,210,216,.65) 156%); 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 0px;    /* Footer height */
+}
+
+  #content { 
+    height: 100vh;
+    top: 0;
+    width:60%;
+    display: inline-block;
+    position: absolute;
+    background-image: url(bgrepeat.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat;
+    right:7%;
  }
+
+
+ #text-container {
+   padding:3%;
+   width:100%; 
+  }
+
+ #box {  
+   top:5vh;
+   z-index:99;
+   left: -30px;
+   width:62vw;
+   height:60vh;
+   display:block;
+   position: relative;
+   color: #888888;
+   border: 1px solid #e8e6e7;
+   background-color: white;
+   text-align:center;
+   border-radius: 0px;
+   padding:3%;
+   vertical-align: middle;
+  }
+
+
+
+ul {
+   display: table;
+   margin: 0 auto;
+}
+
+
+  marquee{
+   font-size: 30px;
+   font-weight: 100;
+ }
+
+
+ .cursor {
+  cursor: url(customcursor.png), auto;
+  height: 350px;
+   width: 25%;
+   left: 200px;
+   position: absolute;
+   z-index: 99;
+
+}
+ 
+  body {
+   margin: 0;
+   background-color: #f2f2f2;
+}
+
+ h1 {
+   text-align: center;
+   color: white;
+   font-size: 3em;
+   font-family: "Angelface";
+   z-index: -1;
+   line-height: 0%;
+  }
+ 
+ p {
+   font-family: "Galmuri14";
+  } 
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #box {  
+   top:20vh;
+   z-index:99;
+   left:4.3%;
+   width:55.3vw;
+   height:55vh;
+   display:block;
+   position: relative;
+   color: white;
+   background-color: black;
+   border: 2px solid #e1e8e2;
+   text-align:center;
+   border-radius: 5%;
+   padding:3%;
+   vertical-align: middle;
+  }
+ }
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/ 
+  marquee{
+   font-size: 2vh;
+   font-weight: 100;
+ } 
+} 
+ 
+ 
+ @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  h1 {  
+   font-size:0.8em;
+ }
+}
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  h2 {  
+   font-size:0.8em;
+ }
+}
+
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+.sidebar-button {
+   font-size: 1.5vh;
+   height:8%;
+ }
+}
+
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  p.maintext {  
+   font-size:0.4em;
+ }
+}
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+#me {
+   padding-top:15px;
+   transform: translate(-50%, 0%);
+ }
+}  
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+ul {
+   font-size:0.4em;
+   display: table;
+   margin: 0 auto;
+ }
+} 
+
+
+
+      
 </style>
