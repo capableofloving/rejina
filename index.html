@@ -13,42 +13,37 @@
   </head>
 
 <body>
+    <div class="header">
+        <div class="topbar-img"><img src="https://64.media.tumblr.com/7a4b1b02a2ed447f266b7bf2d3582dda/492623b6dd7cb371-07/s1280x1920/5d8c1d520e539c6168978f87be9fe5f5b65b9bf6.jpg" width="200" height="200" style="object-fit: cover;"></div>
+      </div>
 
-
-    <div class="sidebar">
-        <div class="sidebar-img"><img src="https://64.media.tumblr.com/7a4b1b02a2ed447f266b7bf2d3582dda/492623b6dd7cb371-07/s1280x1920/5d8c1d520e539c6168978f87be9fe5f5b65b9bf6.jpg" width="200" height="200" style="object-fit: cover;"></div>
-          <a href="/rejina/images"> <button id="button"  class="sidebar-button">ABOUT</button></a>
-  
-          <a href="/rejina/blog"> <button id="button"  class="sidebar-button">CLOSET</button></a>
-  
-          <a href="/rejina/blog"> <button id="button"  class="sidebar-button">DIARY</button></a>
+    <div class="topbar">
+        <a href="/rejina/images">ABOUT</a>
+        <a href="/rejina/blog">CLOSET</a>
+        <a href="/rejina/blog">DIARY</a>
     </div>
     
 
 
 <style>
-     .sidebar {  
-  padding: 1%;
-  z-index:98;
+.header {
+  background:rgba(208, 195, 230, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  text-align: center;
+}
+
+.topbar {  
+  overflow: hidden;
   position: fixed;
   display:inline-block;
-  top:5vh;
-  left: 48px;
-  width:18%;
-  background: rgba(255, 255, 255, 1);
-  backdrop-filter: blur(5px);
-  border-left: 1px solid #e8e6e7;  
-  border-right: 1px solid #e8e6e7; 
-  background-repeat: repeat;
-  color: white;
+  background:rgba(208, 195, 230, 0.5);
+  backdrop-filter: blur(10px);
   text-align: center;
   vertical-align:middle;
-  height: 90vh;
-  padding-top:15px;
-  padding-bottom:5px;
 } 
 
-.sidebar-img {
+.topbar-img {
   background-color: #fff;
   margin: auto;
   height: 200px;
@@ -59,24 +54,22 @@
   z-index: -1;
 }
 
-.sidebar-button {
-  padding: 0.5em 1em;
-  border: 1px solid #d0c3e6; 
-  border-radius: 20px;
+.topbar a {
   color: #d0c3e6;
-  background:rgba(208, 195, 230, 0.5);
-  backdrop-filter: blur(10px);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 0.6em;
-  width: 100%
-  text-align: left;
-  position: relative;
+  text-align: center;
   transition-duration: .3s;
   transition-property: transform;
 }
 
-.sidebar-button:hover {
+.topbar a:hover {
   transform: scale(1.1) rotate(4deg);
+ }
+
+ body {
+    margin: 0;
+    background-color: #f2f2f2;
  }
 </style>
