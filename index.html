@@ -83,6 +83,7 @@
   position: sticky;
   top: 0;
   display:flex;
+  width: 50%;
   overflow:hidden;
   justify-content: center;
   height: 100px;
@@ -97,10 +98,12 @@
   float: left;
   font-size: 0.8em;
   color: #d0c3e6;
+  font-family: "Poppins";
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  transition: all 0.5s ease;
+  transition-duration: .3s;
+  transition-property: transform;
 }
 
 .subnav {
@@ -109,23 +112,20 @@
 }
 
 .subnav .subnavbtn {
-  font-size: 16px; 
+  font-size: 0.8em;
+  color: #d0c3e6;
   border: none;
   outline: none;
-  color: white;
-  padding: 14px 25px;
+  padding: 10px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: "Poppins";
   margin: 0;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  transition: all 0.5s ease;
+  transition-duration: .3s;
+  transition-property: transform;
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background:#8CA6DB;
-  color: black;
-  border-radius:5px;
+  transform: scale(1.1) rotate(4deg);
 }
 
 .subnav:hover {
