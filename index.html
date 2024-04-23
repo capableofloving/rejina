@@ -83,10 +83,19 @@ z-index: -99;
 }
 
 #navigation {
-    height: 40px;
-    background: #FFCC33;
-    border: 1px solid #ebb81f;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    background: rgba(227, 152, 191, 0.5);
+    border: 1px solid #e398bf;
+    backdrop-filter: blur(5px);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 0.7em;
+    text-align: center;
     margin: 5px;
+    padding: 0.5em 2em;
+    z-index:1;
 }
 
 #contentwrap {
@@ -110,7 +119,7 @@ z-index: -99;
 }
 
 #rightcolumn {
-    position: relative;
+    position: fixed;
     background: #CC33FF;
     border: 1px solid #b81feb;
     margin: 5px;
