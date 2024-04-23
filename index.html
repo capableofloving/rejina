@@ -15,11 +15,11 @@
   <body>
     <div id="bg1" ></div> <div id="bg2" ></div> <div id="bg3"></div> <div class="noise"></div>
     <header>
-      <div class="title">
-        <a href="/rejina"><i class="cp cp-home-o"></i></a>
+      <div class="headerimg"><img src="https://i.ibb.co/NWPmJfB/flower-gradient-3.png"></div> <div class="headertitle">REJINA IS ONLINE</div>
+
+      <a href="/rejina"><i class="cp cp-home-o"></i></a>
         <a href="/rejina/about"><i class="cp cp-jellyfish-o"></i></a>
         <a href="/rejina/blog"><i class="cp cp-star-o"></i></a>
-      </div>
     </header>
 
 
@@ -98,7 +98,7 @@ header {
     justify-content:center;
     align-items:center;
     gap:1em;
-    border-bottom: 5px solid #f5c8e3; 
+    border-bottom: 3px solid #f5c8e3; 
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(4px);
     z-index:99999;
@@ -108,12 +108,15 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:1em; 
+  gap:1em;
+  color: #f5c8e3; 
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 .headertitle a {
   display: flex;
-  color: #f5c8e3;
   text-align: center;
   text-decoration: none;
   font-size: 17px;
@@ -126,6 +129,14 @@ header {
 
 .headertitle a:hover {
   transform: scale(1.1) rotate(4deg);
+}
+
+.headerimg {
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  border-radius:100%;
+  position: relative;
 }
 
 .home-o, .jellyfish-o, .star-o {
