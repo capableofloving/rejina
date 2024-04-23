@@ -14,7 +14,11 @@
   
   <body>
     <div id="bg1" ></div><div id="bg2" ></div><div id="bg3"></div>
-
+  
+    <section class="layout">
+      <div class="sidebar">1</div>
+      <div class="body">2</div>
+    </section>
 
         
         
@@ -51,6 +55,24 @@ filter: blur(100px);
   position: fixed;
   top:0px; 
   left:0px;
+}
+
+.layout {
+  width: 1366px;
+  height: 768px;
+
+  display: grid;
+  grid:
+    "sidebar body" 1fr
+    / 50% 50%;
+  gap: 5px;
+}
+
+.sidebar { 
+  grid-area: sidebar; 
+}
+.body { 
+  grid-area: body; 
 }
  
   body {
