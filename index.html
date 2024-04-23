@@ -16,8 +16,6 @@
     <div id="bg1" ></div><div id="bg2" ></div><div id="bg3"></div>
   
     <div class="container">
-      <div class="header">Header</div>
-      <div class="footer">Footer</div>
       <div class="sidebar">Sidebar</div>
       <div class="content">Content</div>
     </div>
@@ -66,14 +64,8 @@ filter: blur(100px);
   gap: 1em 1em;
   grid-auto-flow: row;
   grid-template-areas:
-    "header header"
-    "sidebar content"
-    "footer footer";
+    "sidebar content";
 }
-
-.header { grid-area: header; }
-
-.footer { grid-area: footer; }
 
 .sidebar { grid-area: sidebar; }
 
@@ -92,10 +84,7 @@ filter: blur(100px);
   letter-spacing: 0.05rem;
   box-shadow: 0 1px 6px 0 hsl(0, 0%, 0%, 20%);
 }
-.header, .footer {
-  color: hsl(22, 78%, 26%);
-  background-color: hsl(48, 96%, 89%);
-}
+
 .content {
   color: hsl(177, 51%, 23%);
   background-color: hsl(177, 51%, 93%);
