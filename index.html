@@ -16,9 +16,9 @@
     <div id="bg1" ></div> <div id="bg2" ></div> <div id="bg3"></div> <div class="noise"></div>
   
       <div class="navbar">
-        <a href="/rejina">home</a>
-        <a href="/rejina/about">about</a>
-        <a href="/rejina/blog">blog</a>
+        <a href="/rejina"><i class="cp cp-home-o"></i></a>
+        <a href="/rejina/about"><i class="cp cp-jellyfish-o"></i></a>
+        <a href="/rejina/blog"><i class="cp cp-star-o"></i></a>
       </div>
 
       <div class="main">
@@ -98,19 +98,26 @@ z-index: -99;
 
 .navbar a {
   float: left;
-  display: block;
-  color: white;
+  color: #f5c8e3;
   text-align: center;
   padding: 5px;
   text-decoration: none;
   font-size: 13px;
   font-family: "Poppins", sans-serif;
+  display:flex; 
+  justify-content:center;
+  align-items:center; 
   transition-duration: .3s;
   transition-property: transform;
 }
 
 .navbar a:hover {
   transform: scale(1.1) rotate(4deg);
+}
+
+.home-o, .jellyfish-o, .star-o {
+font-size: 16px;
+color: #f5c8e3;
 }
 
 .main {
