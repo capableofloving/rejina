@@ -15,7 +15,7 @@
   <body>
     <div id="bg1" ></div> <div id="bg2" ></div> <div id="bg3"></div> <div class="noise"></div>
     <header>
-      <div class="headerleft">
+      <div class="title">
         <a href="/rejina"><i class="cp cp-home-o"></i></a>
         <a href="/rejina/about"><i class="cp cp-jellyfish-o"></i></a>
         <a href="/rejina/blog"><i class="cp cp-star-o"></i></a>
@@ -91,8 +91,8 @@ header {
     position:fixed;
     top:0;
     width:100%;
-    height:50px;
-    padding: 15px;
+    height:40px;
+    padding: 10px 15px;
     overflow: hidden;
     display:flex;
     justify-content:center;
@@ -104,29 +104,27 @@ header {
     z-index:99999;
 }
 
-.headerleft {
-  position:absolute;
-  left:.5em;
-  display:flex;
-  justify-content:flex-start;
-  align-items:center;
-  gap:.5em; 
+.headertitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:1em; 
 }
 
-.headerleft a {
+.headertitle a {
   display: flex;
   color: #f5c8e3;
   text-align: center;
   text-decoration: none;
   font-size: 17px;
   font-family: "Poppins", sans-serif;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   transition-duration: .3s;
   transition-property: transform;
 }
 
-.headerleft a:hover {
+.headertitle a:hover {
   transform: scale(1.1) rotate(4deg);
 }
 
