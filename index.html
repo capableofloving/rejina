@@ -15,7 +15,7 @@
   <body>
     <div id="bg1" ></div> <div id="bg2" ></div> <div id="bg3"></div> <div class="noise"></div>
     <header>
-      <div class="headerimg"><img src="https://64.media.tumblr.com/cebf23a0a549f3feff15ee10a4c6e940/7c425aa67c8aa839-71/s2048x3072/7335333443e26631d3b39f76e1e8d9409c5abfc9.gif" style="width: 40px; height: 40px;"></div> <div class="headertitle">REJINA IS ONLINE</div>
+      <div class="headertitle"><img src="https://64.media.tumblr.com/cebf23a0a549f3feff15ee10a4c6e940/7c425aa67c8aa839-71/s2048x3072/7335333443e26631d3b39f76e1e8d9409c5abfc9.gif"> REJINA IS ONLINE</div>
     </header>
 
       <div class="main">
@@ -86,7 +86,7 @@ header {
     position:fixed;
     top:0;
     width:100%;
-    height:40px;
+    height:50px;
     padding: 10px;
     overflow: hidden;
     display:flex;
@@ -95,13 +95,13 @@ header {
     gap: 0.1em;
     border-bottom: 1px solid #f5c8e3; 
     background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(4px);
-    z-index:99999;
+    backdrop-filter: blur(5px);
+    z-index: 99999, imp !important;
 }
 
 .headertitle {
-  position: relative;
-  margin: auto;
+  margin-right: 10px;
+  vertical-align:middle;
   color: #f5c8e3; 
   font-size: 15px;
   font-family: "Poppins", sans-serif;
@@ -109,9 +109,13 @@ header {
   text-align: left;
 }
 
-.headerimg {
-  margin: auto;
-  position: relative;
+.header img {
+  margin-left:10px;
+	margin-right:10px;
+	border-radius:100%;
+	vertical-align:middle;
+	width:50px!important;
+	height:50px!important;
 }
 
 .main {
