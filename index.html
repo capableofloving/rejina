@@ -15,7 +15,7 @@
   <body>
     <div id="bg1" ></div> <div id="bg2" ></div> <div id="bg3"></div> <div class="noise"></div>
     <header>
-      <div class="headertitle"><img src="https://64.media.tumblr.com/38f4b01827a6d374a1f64cfaa910a816/fa213fd54b2fde89-ed/s540x810/e919ca4774418abc04f880e4bb079ef374699436.gif"> <i class="cp cp-circle"></i> REJINA IS ONLINE</div>
+      <div class="headertitle"><img src="https://pbs.twimg.com/media/GMBAVyyaoAAv3AH?format=jpg&name=large"> <i class="cp cp-circle"></i> REJINA IS ONLINE</div>
     </header>
 
       <div class="main">
@@ -93,7 +93,7 @@ header {
     justify-content:center;
     align-items:center;
     gap: 0.1em;
-    border-image: linear-gradient(#f5c8e3, #bde7ec) 30;
+    border-image: linear-gradient(to left, #f5c8e3, #bde7ec) 30;
     border-bottom: 4px solid;
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(5px);
@@ -104,7 +104,7 @@ header {
   margin-right: 10px;
   vertical-align:middle;
   color: #bde7ec; 
-  font-size: 17px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   text-align: left;
@@ -115,15 +115,22 @@ header {
 	margin-right:10px;
 	border-radius:100%;
 	vertical-align:middle;
-	width:50px!important;
-	height:50px!important;
+	width:50px;
+	height:50px;
   border:1px solid #cacaca;
+  object-fit: cover;
 }
 
 .cp-circle {
   font-size: 0.4em;  
   color: #d0d19d;
   animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+50% {
+opacity: 0;
+}
 }
 
 .main {
