@@ -54,7 +54,7 @@
 header {
     position:fixed;
     top:0;
-    left: 25%;
+    left: 50%;
     transform: translateX(-50%);
     width:40%;
     height:140px;
@@ -70,33 +70,6 @@ header {
     background: rgba(240, 206, 226, 0.5);
     backdrop-filter: blur(5px);
     z-index: 99999;
-    -webkit-animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@-webkit-keyframes slide-in-top {
-  0% {
-    -webkit-transform: translateY(-1000px);
-            transform: translateY(-1000px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes slide-in-top {
-  0% {
-    -webkit-transform: translateY(-1000px);
-            transform: translateY(-1000px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
 }
 
 .headertitle {
