@@ -7,7 +7,7 @@ body {
   background-color: white;
   background-image: url("https://pbs.twimg.com/media/GMGKOKhbAAAl7u8?format=jpg&name=large");
   background-repeat:repeat-x;
-  background-size: contain;
+  background-size: cover;
   background-position: left;
   margin: 0px;
 }
