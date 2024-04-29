@@ -18,9 +18,9 @@
     <div class="sidebar">
       <img src="https://64.media.tumblr.com/fbf5c194503b4c521c3924debaab7e89/2f6539893a58ea03-f3/s400x600/f164f99064f48daf45b167baaa15c052f8659b02.jpg">
       <div class="sidebartitle">REJINA</div>
-      <a href="/rejina/"> <button id="button"  class="sidebar-button">HOME</button></a> 
-      <a href="/rejina/about"> <button id="button"  class="sidebar-button">ABOUT</button></a> 
-      <a href="/rejina/blog"> <button id="button"  class="sidebar-button">BLOG</button></a>
+      <a href="/rejina/" class="sidebar-nav">HOME</button></a> 
+      <a href="/rejina/about" class="sidebar-nav">ABOUT</button></a> 
+      <a href="/rejina/blog" class="sidebar-nav">BLOG</button></a>
     </div>
 
       <div class="main">
@@ -83,33 +83,19 @@
 	height:130px;
   object-fit: cover;
   border-radius: 50%;
-  border: 0px solid #c4cfea; 
+  border: 4px solid #c4cfea; 
 }
 
-.sidebar img::after {
-content: '';
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
--webkit-box-shadow: inset 0 0 40px 40px rgba(195, 206, 233, 1);
--moz-box-shadow: inset 0 0 40px 40px rgba(195, 206, 233, 1);
-box-shadow: inset 0 0 40px 40px rgba(195, 206, 233, 1);
-border-radius: 50%;
-overflow: hidden;
-}
-
-.sidebar-button {
+.sidebar-nav {
   padding: 10px;
   border: 1px solid #c4cfea; 
   line-height: 50%;
+  text-align: center;
   color: white;
   background:rgba(195, 206, 233, 0.3);
   backdrop-filter: blur(5px);
   font-family: "Poppins", sans-serif;
   font-size: 0.7em;
-  width: 60%;
   transition-duration: .3s;
   transition-property: transform;
 }
