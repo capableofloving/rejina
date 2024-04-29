@@ -90,6 +90,10 @@
 }
 
 .sidebar-button {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0.5em 1em;
   border: 1px solid #f0cee2; 
   border-radius: 20px;
@@ -103,8 +107,21 @@
   text-align: center;
 }
 
-.sidebar button:hover {
+.sidebar-button:hover {
  }
+
+ .sidebar-button:hover::after {
+  background: #add8e6;
+  border-radius: 4px;
+  bottom: 100%;
+  content: attr(title);
+  display: block;
+  left: 100%;
+  padding: 1em;
+  position: absolute;    
+  width: 280px;
+  z-index: 1;
+}
 
 
 .main {
