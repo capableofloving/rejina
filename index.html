@@ -18,11 +18,11 @@
     <div class="sidebar">
       <img src="https://pbs.twimg.com/media/GMGKOKebIAADTGO?format=jpg&name=large">
       <div class="sidebartitle">REJINA</div>
-      <a href="/rejina/"> <button id="button"  class="sidebar-button"></button></a>
+      <a href="/rejina/"> <button id="button"  class="sidebar-button">HOME</button></a>
 
-      <a href="/rejina/about"> <button id="button"  class="sidebar-button"></button></a>
+      <a href="/rejina/about"> <button id="button"  class="sidebar-button">ABOUT</button></a>
 
-      <a href="/rejina/blog"> <button id="button"  class="sidebar-button"></button></a>
+      <a href="/rejina/blog"> <button id="button"  class="sidebar-button">BLOG</button></a>
     </div>
 
       <div class="main">
@@ -90,7 +90,6 @@
 }
 
 .sidebar-button {
-  position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -101,8 +100,7 @@
   background:rgba(240, 206, 226, 0.3);
   backdrop-filter: blur(10px);
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 0.6em;
+  font-size: 0.7em;
   width: 100%
   text-align: center;
 }
@@ -112,14 +110,12 @@
 
  .sidebar-button:hover::after {
   background: #add8e6;
-  border-radius: 4px;
   bottom: 100%;
-  content: attr(title);
   display: block;
   left: 100%;
   padding: 1em;
   position: absolute;    
-  width: 280px;
+  width: 50px;
   z-index: 1;
 }
 
