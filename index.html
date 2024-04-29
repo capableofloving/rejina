@@ -16,18 +16,14 @@
   
   <body>
     <div class="topbar">
-      <a href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+      <a href="/rejina/">HOME</a>
+      <a href="/rejina/about">ABOUT</a>
+      <a href="/rejina/blog">BLOG</a>
     </div>
 
     <div class="sidebar">
       <img src="https://64.media.tumblr.com/fbf5c194503b4c521c3924debaab7e89/2f6539893a58ea03-f3/s400x600/f164f99064f48daf45b167baaa15c052f8659b02.jpg">
       <div class="sidebartitle">REJINA</div>
-      <a href="/rejina/" class="sidebar-nav">HOME</button></a> 
-      <a href="/rejina/about" class="sidebar-nav">ABOUT</button></a> 
-      <a href="/rejina/blog" class="sidebar-nav">BLOG</button></a>
     </div>
 
       <div class="main">
@@ -78,24 +74,26 @@
   position:fixed;
   top: 0%;
   left: 0%;
-  width: 30%;
-  border-bottom: 1px solid #c4cfea;
+  width: 32%;
+  border-bottom: 1px solid #c3b9e3;
   background-color: rgb(195,185,227, 0.5);
   backdrop-filter: blur(5px);
 }
 
 .topbar a {
   float: left;
-  color: #f2f2f2;
+  color: #c3b9e3;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7em;
+  transition-duration: .3s;
+  transition-property: transform;
 }
 
 .topbar a:hover {
-  background-color: #ddd;
-  color: black;
+  transform: scale(1.1) rotate(4deg);
 }
 
 .sidebartitle {
@@ -117,28 +115,6 @@
   border-radius: 50%;
   border: 4px solid #c4cfea; 
 }
-
-.sidebar-nav {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  border: 1px solid #c4cfea; 
-  line-height: 2;
-  text-align: center;
-  color: white;
-  background:rgba(195, 206, 233, 0.3);
-  backdrop-filter: blur(5px);
-  font-family: "Poppins", sans-serif;
-  font-size: 0.7em;
-  transition-duration: .3s;
-  transition-property: transform;
-  text-decoration: none;
-}
-
-.sidebar-nav:hover {
-  transform: scale(1.1) rotate(4deg);
- }
 
 .main {
   position:fixed;
