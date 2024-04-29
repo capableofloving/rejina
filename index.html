@@ -15,14 +15,14 @@
   </head>
   
   <body>
-    <header>
-      <div class="headertitle">REJINA</div>
+    <div class="sidebar">
+      <div class="sidebartitle">REJINA</div>
       <a href="/rejina/"> <button id="button"  class="sidebar-button">home</button></a>
 
       <a href="/rejina/about"> <button id="button"  class="sidebar-button">about</button></a>
 
       <a href="/rejina/blog"> <button id="button"  class="sidebar-button">blog</button></a>
-    </header>
+    </div>
 
       <div class="main">
         <p>Some text some text some text some text..</p>
@@ -50,7 +50,7 @@
 
 
 <style>
-header {
+.sidebar {
     position:fixed;
     top: 0%;
     left: 100px;
@@ -68,7 +68,7 @@ header {
     backdrop-filter: blur(5px);
 }
 
-.headertitle {
+.sidebartitle {
   margin-right: 10px;
   vertical-align:middle;
   color: #f0cee2; 
@@ -78,7 +78,7 @@ header {
   text-align: center;
 }
 
-header img {
+.sidebar img {
   margin-left:10px;
 	margin-right:10px;
 	vertical-align:middle;
@@ -87,7 +87,7 @@ header img {
   object-fit: cover;
 }
 
-header button {
+.sidebar-button {
   padding: 0.5em 1em;
   border: 1px solid #f0cee2; 
   border-radius: 20px;
@@ -101,18 +101,17 @@ header button {
   text-align: center;
 }
 
-header button:hover {
+.sidebar button:hover {
  }
 
 
 .main {
   position:fixed;
-  z-index: 9999;
-  width: 450px;
+  width: 400px;
   height: 100vh;
   float: left;
   background-color: white;
-  padding: 15px;
+  padding: 10px;
 }
  
   body {
