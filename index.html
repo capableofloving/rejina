@@ -16,7 +16,7 @@
   
   <body>
     <div class="topbar">
-      <div class="topbartitle">REJINA</div>
+      <div class="topbartitle"><i class="cp cp-circle"></i> rejina online</div>
     </div>
 
     <div class="sidebar">
@@ -115,6 +115,18 @@
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   text-align: left;
+}
+
+.cp-circle {
+  font-size: 0.7em;  
+  color: #9cc8b2;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+50% {
+opacity: 0;
+}
 }
 
 .main {
