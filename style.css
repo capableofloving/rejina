@@ -6,6 +6,7 @@
 @font-face {
   font-family: queen serif;
   src: url(queenserif.ttf);
+  src: url(queenserif.otf);
 }
 
 body {
