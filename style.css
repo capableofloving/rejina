@@ -3,6 +3,11 @@
   src: url(https://dl.dropbox.com/s/vsjf4lchbdr1sxm/Galmuri14.ttf);
 }
 
+@font-face {
+  font-family: queen serif;
+  src: url(queenserif.ttf);
+}
+
 body {
   background-color: #fff;
   margin: 0px;
