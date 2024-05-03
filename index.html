@@ -90,17 +90,6 @@
   color: #f0cdda;
 }
 
-.heart {
-  position: absolute;
-  top: 100px; 
-  left: 150px; 
-  z-index: 999; 
-	width: 500px;
-	height: 500px;
-	clip-path: path("M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z");
-  
-}
-
 .sidebar img {
   display: block;
   margin-left: 0px;
@@ -113,10 +102,9 @@
 
 .sidebar img::before {
 content: '';
-position: absolute;
+position: relative;
 display: inline-block;
 box-sizing: border-box;
-z-index: -1;
 top: 0;
 left: 0;
 width: 180px;
